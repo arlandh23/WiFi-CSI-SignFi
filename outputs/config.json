@@ -1,0 +1,36 @@
+{
+  "DATA_ROOT": "/content/data_signfi",
+  "SIGNFI_FILE": "dataset_lab_276_dl.mat",
+  "OUT_DIR": "/content/wifi-csi-har/outputs",
+  "MAX_CLASSES": null,
+  "FS": 200.0,
+  "N_ANT": 3,
+  "N_SUB": 30,
+  "DWT_WAVELET": "db4",
+  "DWT_LEVEL": 2,
+  "LPF_CUTOFF": 40.0,
+  "LPF_ORDER": 4,
+  "N_PCA": 4,
+  "STFT_NPERSEG": 32,
+  "STFT_NOVERLAP": 28,
+  "SPLIT": [
+    0.7,
+    0.15,
+    0.15
+  ],
+  "BATCH": 64,
+  "EPOCHS": 60,
+  "LR": 0.001,
+  "WD": 0.0001,
+  "PATIENCE": 15,
+  "LABEL_SMOOTHING": 0.1,
+  "AUGMENT": true,
+  "RUN_ABLATION": true,
+  "ABL_EPOCHS": 40,
+  "ABL_SEEDS": [
+    42,
+    2026
+  ],
+  "NUM_WORKERS": 2,
+  "SEED": 42
+}

@@ -1,0 +1,8 @@
+Tahap,Jumlah pemanggilan,Status
+1. Extraction amplitudo & fase,12,✅ dipakai
+2. Filtering — DWT denoising,36,✅ dipakai
+2. Filtering — Butterworth low-pass,36,✅ dipakai
+3. Phase sanitization — unwrapping,12,✅ dipakai
+3. Phase sanitization — transformasi linier,12,✅ dipakai
+"4. Feature structuring — tensor (B,C,S,T)",48,✅ dipakai
+4. Feature structuring — PCA + STFT spektrogram,12,✅ dipakai
